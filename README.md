@@ -69,6 +69,24 @@
      caracteristica.cabelo = "Cor"
      caracteristica.olhos  = "Cor"
      caracteristica.pele   = "Cor"
-   
-   next...
+     
+   # Estrutura de Condição
+     * Estrutura para determinar se é TRUE ou FALSE.
+     if(1 < 2){return "Número 1 é menor que 2 "}
+     else if(2 == 2){return "Número 2 é igual a 2"}
+     
+   # Estrutura de Repetição
+     * Estrutura pode repetir um determinado trecho de código várias vezes.
+     let x = 1;
+     while(x < 2){ // Enquanto x for menor que 2
+     console.log(x); // irá repetir esse trecho de código
+     x++ // x + 1 = 2
+     }
+     
+     for(let x = 1; x < 2; x++){
+     console.log(x); // irá repetir esse trecho de código
+     }
+    
+   # POO - Programação Orientada Objeto
+     * soon...
      
