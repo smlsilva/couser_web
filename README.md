@@ -78,12 +78,12 @@
    # Estrutura de Repetição
      * Estrutura pode repetir um determinado trecho de código várias vezes.
      let x = 1;
-     while(x < 2){ // Enquanto x for menor que 2
+     while(x < 2){ // Enquanto for VERDADEIRO
      console.log(x); // irá repetir esse trecho de código
      x++ // x + 1 = 2
      }
      
-     for(let x = 1; x < 2; x++){
+     for(let x = 1; x < 2; x++){ // Enquanto essa condição for VERDADEIRA
      console.log(x); // irá repetir esse trecho de código
      }
     
