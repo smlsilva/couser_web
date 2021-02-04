@@ -88,5 +88,26 @@
      }
     
    # POO - Programação Orientada Objeto
-     * soon...
+     * Principios
+     1 - Abstração
+         - Abstração dos dados. Em POO é abstrair todos atributos de um objeto e seus métodos.
+         Exemplo:
+                - const Carro = new Object;
+                  Carro.cor = "Prata";
+                  Carro.velocidadeMax = "200khm";
+                  Carro.marca = "BMW";
+                  Carro.valor = 20.000;
+     2 - Encapsulamento
+          - É a maneira de Ocultar determinado elementos de uma classe ou uma função.
+          Exemplo:
+                - function Carro(marca, modelo, valor){
+                      this.valor = valor // THIS é utilizado para deixar o elemento público, ou seja ele pode ser alterado.
+                      console.log(`${marca} e ${modelo} e ${valor}`) // o Valor pode ser modificado sem chamar a função completa.
+                }
+     3 - Herança
+          - Reaproveitamento de código é com HERANÇA E POLIMORFISMO, a herança herda as informações que estão em outra class
+          sendo assim, não é necessário ficar escrevendo o código toda vez, apenas herda da outra classe.
+     4 - Polimorfismo
+          - Vou deixar para vocês pesquisarem ;)
      
+    next...
