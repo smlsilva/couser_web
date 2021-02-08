@@ -108,6 +108,6 @@
           - Reaproveitamento de código é com HERANÇA E POLIMORFISMO, a herança herda as informações que estão em outra class
           sendo assim, não é necessário ficar escrevendo o código toda vez, apenas herda da outra classe.
      4 - Polimorfismo
-          - Vou deixar para vocês pesquisarem ;)
+          - Pode ser entendido como sobrecarga de métodos, onde podemos pegar um método de outra classe/function e utilizar a sua funcionalidade em outra classe.
      
     next...
