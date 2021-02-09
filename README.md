@@ -177,4 +177,7 @@
      - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.
      
      Confira o link abaixo:
-       -
+       - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
+       
+   
+     next...
