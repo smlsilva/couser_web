@@ -110,4 +110,74 @@
      4 - Polimorfismo
           - Pode ser entendido como sobrecarga de métodos, onde podemos pegar um método de outra classe/function e utilizar a sua funcionalidade em outra classe.
      
-    next...
+   # Herança
+   
+    const avo = { attri1: 'A'}
+    const pai = { __proto__: avo, attri2: 'B'}
+    const filho = { __proto__:pai, attri3: 'C'}
+    console.log(filho.attri0, filho.attri1, filho.attri2, filho.attri3)
+    ------------------------------------------------------------------
+    
+    class Avo {
+         constructor(nome){
+             this.nome = nome;
+             this.sobrenome = sobrenome;
+         }
+    }
+    
+    class Pai extends Avo {
+         constructo(sobrenome = "Silva"){
+         super(nome)
+         this.nome = nome;
+         }
+    }
+    
+    class Filho extends Pai {
+         constructor(nome = "Samuel"){
+         super(sobrenome)
+         this.nome = nome;
+         }
+    }
+    
+    const filho = new Filho;
+    console.log(filho) // Filho { sobrenome: 'Silva', nome: 'Samuel' } // sobrenome de PAI e nome do Filho
+    
+   # Criando Objetos
+   
+    const obj1 = {} // Notação literal
+    const obj2 = new Object; // Utilizando o Object
+    
+    // Função construtora
+    function Produto(nome, preco, desc){
+    this.nome = nome; // This identifica o Atributo como público
+    this.getPrecoComDesconto = () =>{
+        return preco * (1 - desc) //preco e desc não está público, então não pode ser alterado fora da function
+     }
+    }
+    const p1 = new Produto('Caneta', 7.99, 0.15)
+    console.log(p1.getPrecoComDesconto())
+    
+    // Criando pelo Object.create
+    const obj3 = new Obejct.create(null);
+    
+    // JSON - JavaScript Object Notation (RETORNA UM OBJETO)
+    const json = JSON.parse('{ "nome" : "Criando em Json" }')
+    
+   # JSON - JavaScript Object Notation (FORMATO DE DADOS TEXTUAL)
+     
+     const obj = {nome: "Samuel", idade: 20, linguagem: "JavaScript"}
+     console.log(JSON.stringify(obj)) // {"nome":"Samuel", "idade":20, "linguagem":"JavaScript"}
+     
+     // Json p/ texto
+     console.log(JSON.parse('{"nome":"Samuel","idade":20}') // {nome :"Samuel", idade:20}
+     
+     // Para constultar mais sobre JSON acesse: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+     
+   # Evitando Modificações
+     - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.
+     
+     Confira o link abaixo:
+       - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
+       
+   
+     next...
