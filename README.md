@@ -179,5 +179,16 @@
      Confira o link abaixo:
        - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
        
-   
-     next...
+   # Array
+      - É um estrutura de dados dinâmica, permite incluir dados, excluir e modificar.
+      - Métodos de Array's
+         - pop() // Exclui o último elemento do Array
+         - push() // Adiciona o elemento na última posição
+         - shift() // Remove o primeiro elemento do Array
+         - unshift() // Adiciona um elemento na primeira posição
+         - splice() // Remove elementos, Adiciona elementos e também pode ser em qualquer posição.
+         - slice() // Cria um novo Array
+         - map() // Cria um novo Array, modificando os elementos, mas não altera no vetor/array atual.
+         
+         
+       next...
