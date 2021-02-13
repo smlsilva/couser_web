@@ -171,7 +171,8 @@
      // Json p/ texto
      console.log(JSON.parse('{"nome":"Samuel","idade":20}') // {nome :"Samuel", idade:20}
      
-     // Para constultar mais sobre JSON acesse: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+     // Para constultar mais sobre JSON acesse: 
+     <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">Documentação</a>
      
    # Evitando Modificações
      - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.
