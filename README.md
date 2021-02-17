@@ -171,14 +171,14 @@
      // Json p/ texto
      console.log(JSON.parse('{"nome":"Samuel","idade":20}') // {nome :"Samuel", idade:20}
      
-     // Para constultar mais sobre JSON acesse:
-     // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+     // Para consutar mais sobre JSON acesse:
+   - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
      
    # Evitando Modificações
      - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.
      
      Confira o link abaixo:
-       - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
+   - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
        
    # Array
       - É um estrutura de dados dinâmica, permite incluir dados, excluir e modificar.
