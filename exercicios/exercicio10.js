@@ -11,3 +11,4 @@ function simboloMais(numero){
 console.log(simboloMais(0))
 console.log(simboloMais(1))
 console.log(simboloMais(2))
+console.log(simboloMais(10))
