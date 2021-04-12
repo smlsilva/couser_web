@@ -8,7 +8,6 @@ exports.b = 2
 module.exports.c = 3
 exports = null
 
-console.log(module.exports)
 
 // OBJETO NÃO SERÁ RETORNADO APENAS COM EXPORTS
 exports = {
@@ -18,3 +17,6 @@ exports = {
 console.log(module.exports)
 
 module.exports = { publico: true}
+module.exports = { nome : "Samuel"}
+
+console.log(module.exports)
