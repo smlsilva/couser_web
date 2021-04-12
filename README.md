@@ -64,7 +64,7 @@
    # Operador Ternário
      const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
      
-   # par nome/Valor
+   # Par nome/Valor
      const caracteristica = {}
      caracteristica.cabelo = "Cor"
      caracteristica.olhos  = "Cor"
@@ -190,6 +190,3 @@
          - splice() // Remove elementos, Adiciona elementos e também pode ser em qualquer posição.
          - slice() // Cria um novo Array
          - map() // Cria um novo Array, modificando os elementos, mas não altera no vetor/array atual.
-         
-         
-       next...
