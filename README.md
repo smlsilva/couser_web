@@ -1,4 +1,18 @@
-# Introdução ao JavaScript
+# TECNOLOGIAS UTILIZADAS
+   
+   # FRONT-END
+   <ul>
+     <li>HTML5</li>
+     <li>CSS3</li>
+     <li>JavaScript</li>
+   </ul>
+   
+   # BACK-END
+   <ul>
+     <li>NODEJS</li>
+   </ul>
+
+# JavaScript
   
   # Tipos de Escopos
     {} // Escopo de Bloco
@@ -28,8 +42,8 @@
   # Determinar Valor padrão.
     - function soma(a = 1, b = 3){return a + b // Caso não seja declarado nenhum dado, a função assumirá o valor padrão 1 e 3}
    
-  # Destructuring - 
-    * Desestruturação de dados, é muito útil para não precisar declarar um valor toda vez que necessário.
+  # Destructuring
+   <p>Desestruturação de dados é muito útil para não precisar declarar um valor toda vez que necessário.</p>
     
     - const valores = {
        nome : "Samuel",
@@ -42,7 +56,7 @@
       - let multLinhas = ` Hello
                            World `
    # Hoisting
-      * Mecânimos que joga a variavel declarada para cima.
+   <p>Mecânimos que joga a variavel declarada para cima.</p>
       
       * Não é recomendado trabalhar dessa forma.
       
@@ -71,12 +85,14 @@
      caracteristica.pele   = "Cor"
      
    # Estrutura de Condição
-     * Estrutura para determinar se é TRUE ou FALSE.
+   <p> Estrutura para determinar se é TRUE ou FALSE. </p>
+   
      if(1 < 2){return "Número 1 é menor que 2 "}
      else if(2 == 2){return "Número 2 é igual a 2"}
      
    # Estrutura de Repetição
-     * Estrutura pode repetir um determinado trecho de código várias vezes.
+   <p> Estrutura pode repetir um determinado trecho de código várias vezes.</p>
+     
      let x = 1;
      while(x < 2){ // Enquanto for VERDADEIRO
      console.log(x); // irá repetir esse trecho de código
@@ -88,8 +104,10 @@
      }
     
    # POO - Programação Orientada Objeto
-     * Principios
-     1 - Abstração
+   <p> Principios <p>
+   <ol>
+     <br>
+     <li> Abstração
          - Abstração dos dados. Em POO é abstrair todos atributos de um objeto e seus métodos.
          Exemplo:
                 - const Carro = new Object;
@@ -97,18 +115,29 @@
                   Carro.velocidadeMax = "200khm";
                   Carro.marca = "BMW";
                   Carro.valor = 20.000;
-     2 - Encapsulamento
+     </li>
+     </br>
+     <br>
+     <li> Encapsulamento
           - É a maneira de Ocultar determinado elementos de uma classe ou uma função.
           Exemplo:
                 - function Carro(marca, modelo, valor){
                       this.valor = valor // THIS é utilizado para deixar o elemento público, ou seja ele pode ser alterado.
                       console.log(`${marca} e ${modelo} e ${valor}`) // o Valor pode ser modificado sem chamar a função completa.
-                }
-     3 - Herança
+                 }
+     </li>
+     </br>
+     <br>
+     <li> Herança
           - Reaproveitamento de código é com HERANÇA E POLIMORFISMO, a herança herda as informações que estão em outra class
           sendo assim, não é necessário ficar escrevendo o código toda vez, apenas herda da outra classe.
-     4 - Polimorfismo
-          - Pode ser entendido como sobrecarga de métodos, onde podemos pegar um método de outra classe/function e utilizar a sua funcionalidade em outra classe.
+     </li>
+     </br>
+     <br>
+     <li> Polimorfismo
+          - Pode ser entendido como sobrecarga de métodos, onde podemos pegar um método de outra classe/function e utilizar a sua funcionalidade em outra classe.      </li>
+     </br>
+     </ol>
      
    # Herança
    
@@ -172,13 +201,13 @@
      console.log(JSON.parse('{"nome":"Samuel","idade":20}') // {nome :"Samuel", idade:20}
      
      // Para consutar mais sobre JSON acesse:
-   - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+   <a> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON </a>
      
    # Evitando Modificações
      - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.
      
      Confira o link abaixo:
-   - https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js
+   <a> https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js </a>
        
    # Array
       - É um estrutura de dados dinâmica, permite incluir dados, excluir e modificar.
@@ -190,3 +219,12 @@
          - splice() // Remove elementos, Adiciona elementos e também pode ser em qualquer posição.
          - slice() // Cria um novo Array
          - map() // Cria um novo Array, modificando os elementos, mas não altera no vetor/array atual.
+
+# STATUS DO PROJETO
+  - [ ] Finalizado
+  - [ ] Em andamento
+  - [ ] Interropido
+
+# SUGESTÕES
+   <p> Para informar alguma sugestão sobre a organização, desenvolvimento ou querer participar, pode estar enviando um <b>pull request</b> </p>
+   
