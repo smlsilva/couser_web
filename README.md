@@ -222,7 +222,7 @@
 
 # STATUS DO PROJETO
   - [ ] Finalizado
-  - [ ] Em andamento
+  - [x] Em andamento
   - [ ] Interropido
 
 # SUGESTÕES
