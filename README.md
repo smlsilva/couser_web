@@ -2,14 +2,14 @@
    
    # FRONT-END
    <ul>
-     <li><img src="https://img.shields.io/static/v1?label=HTML5&message=_&color=red&style=for-the-badge&logo=HTML5"/> </li>
-     <li><img src="https://img.shields.io/static/v1?label=CSS3&message=_&color=blue&style=for-the-badge&logo=CSS3"/></li>
-     <li><img src="https://img.shields.io/static/v1?label=JavaScript&message=_&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></li>
+     <li><img src="https://img.shields.io/static/v1?label=HTML5&message=tech&color=red&style=for-the-badge&logo=HTML5"/></li>
+     <li><img src="https://img.shields.io/static/v1?label=CSS3&message=tech&color=blue&style=for-the-badge&logo=CSS3"/></li>
+     <li><img src="https://img.shields.io/static/v1?label=JavaScript&message=tech&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></li>
    </ul>
    
    # BACK-END
    <ul>
-     <li><img src="https://img.shields.io/static/v1?label=Node.js&message=_&color=green&style=for-the-badge&logo=NODE.JS"/></li>
+     <li><img src="https://img.shields.io/static/v1?label=Node.js&message=tech&color=green&style=for-the-badge&logo=NODE.JS"/></li>
    </ul>
 
 # JavaScript
