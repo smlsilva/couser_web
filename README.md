@@ -228,3 +228,6 @@
 # SUGESTÕES
    <p> Para informar alguma sugestão sobre a organização, desenvolvimento ou querer participar, pode estar enviando um <b>pull request</b> </p>
    
+# CONTRIBUIDORES
+![samuel](https://user-images.githubusercontent.com/47987232/114802230-bba6c200-9d73-11eb-837e-109eb9d249af.jpeg)
+<p>SAMUEL<p>
