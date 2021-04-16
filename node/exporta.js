@@ -10,7 +10,7 @@ exports = null
 
 
 // OBJETO NÃO SERÁ RETORNADO APENAS COM EXPORTS
-exports = {
+module.exports = {
     nome: 'Teste'
 }
 
