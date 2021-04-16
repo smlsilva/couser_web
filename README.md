@@ -1,17 +1,19 @@
-# TECNOLOGIAS UTILIZADAS
+# 💡 TECNOLOGIAS UTILIZADAS
    
-   # FRONT-END
-   <ul>
-     <li><img src="https://img.shields.io/static/v1?label=HTML5&message=tech&color=red&style=for-the-badge&logo=HTML5"/></li>
-     <li><img src="https://img.shields.io/static/v1?label=CSS3&message=tech&color=blue&style=for-the-badge&logo=CSS3"/></li>
-     <li><img src="https://img.shields.io/static/v1?label=JavaScript&message=tech&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></li>
-   </ul>
+   # 🎭 FRONT-END
+     
+   <img src="https://img.shields.io/static/v1?label=HTML5&message=tech&color=red&style=for-the-badge&logo=HTML5"/>
+   <img src="https://img.shields.io/static/v1?label=CSS3&message=tech&color=blue&style=for-the-badge&logo=CSS3"/>
+   <a href=""><img src="https://img.shields.io/static/v1?label=JavaScript&message=tech&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></a>
    
-   # BACK-END
-   <ul>
-     <li><img src="https://img.shields.io/static/v1?label=Node.js&message=tech&color=green&style=for-the-badge&logo=NODE.JS"/></li>
-   </ul>
-
+   # 👥 BACK-END
+   
+   <img src="https://img.shields.io/static/v1?label=Node.js&message=tech&color=green&style=for-the-badge&logo=NODE.JS"/>
+       
+   # 🔧 FRAMEWORKS
+   <b>BACK-END<br></b>
+   <img src="https://img.shields.io/static/v1?label=Express&message=tech&color=white&style=for-the-badge&logo=EXPRESS"/>
+  
 # JavaScript
   
   # Tipos de Escopos
@@ -223,11 +225,11 @@
 # STATUS DO PROJETO
   - [ ] Finalizado
   - [x] Em andamento
-  - [ ] Interropido
+  - [ ] Interrompido
 
 # SUGESTÕES
-   <p> Para informar alguma sugestão sobre a organização, desenvolvimento ou querer participar, pode estar enviando um <b>pull request</b> </p>
+   <p> Para informar alguma sugestão sobre a organização, desenvolvimento ou querer participar, pode estar enviando um <b>PULL REQUEST</b> com
+   nome, tempo de desenvolvimento e linguagem atual.</p>
    
 # CONTRIBUIDORES
-![samuel (1)](https://user-images.githubusercontent.com/47987232/114802351-f14bab00-9d73-11eb-8349-3bec875b6a88.jpeg)
-<p>SAMUEL<p>
+   <a href="github.com/smlsilva">![samuel (1)](https://user-images.githubusercontent.com/47987232/114802351-f14bab00-9d73-11eb-8349-3bec875b6a88.jpeg)</a>
