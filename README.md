@@ -232,4 +232,4 @@
    nome, tempo de desenvolvimento e linguagem atual.</p>
    
 # CONTRIBUIDORES
-   <a href="github.com/smlsilva">![samuel (1)](https://user-images.githubusercontent.com/47987232/114802351-f14bab00-9d73-11eb-8349-3bec875b6a88.jpeg)</a>
+   <a href="https://github.com/smlsilva" target="_blank">![samuel (1)](https://user-images.githubusercontent.com/47987232/114802351-f14bab00-9d73-11eb-8349-3bec875b6a88.jpeg)</a>
