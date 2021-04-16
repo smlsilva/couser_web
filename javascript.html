@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>    JavaScript    </title>
+    <meta charset="utf-8">
+    <style>
+      hgroup{
+        text-align: center;
+        position: fixed;
+        margin-top: -95px;
+        /*background-color: darkgrey;*/
+        border-radius: 20px;
+        padding: 5px;
+        margin-left: -7px;
+      }
+      hgroup a {
+        color: black;
+        text-decoration: none;
+        border: 5px black solid;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 3px;
+        background-color: white;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        border: 1px black solid;
+        padding: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        border-radius: 5px;
+        background-color: black;
+      }
+      h1 {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+  <hgroup>
+      <a href="#TiposEscopos">Tipos de Escopo</a>
+      <a href="#DeclaracaoVar">Declaração de Variáveis</a>
+      <a href="#TipoDadosPrimitivos">Tipos de Dados Primitivos</a>
+      <a href="#TiposDeDadosComplexo">Tipos de Dados Complexos</a>
+      <a href="#DeterminarValorPadrao">DeterminarValorPadrao</a>
+      <a href="#Destructuring">Destructuring</a>
+      <a href="#OperadoresUnarios">Operadores Unários</a>
+      <a href="#OperadorTernario">Operador Ternario</a>
+      <a href="#TemplateString">Template String</a>
+      <a href="#Hoisting">Hoisting</a>
+      <a href="#ParNomeValor">Par Nome : Valor</a>
+      <a href="#EstruturaCondicao">Estrutura de Condição</a>
+      <a href="#EstruturaRepeticao">Estrutura Repeticao</a>
+      <a href="#POO">POO</a>
+      <a href="#HERANCA">Herança</a>
+      <a href="#CriandoObj">Criando Objetos</a>
+      <a href="#EvitandoModificacoes">Evitando Modificações</a>
+      <a href="#Array">Array</a>
+  </hgroup>
+
+    <h1>DOCUMENTAÇÃO</h1>
+  <h2 id="TiposEscopos">Tipos de Escopos</h2>
+    {} // Escopo de Bloco<br>
+    function(){} // Escopo de função</br>
+    // Escopo global, quando não têm nenhum escopo
+  
+  <h2 id="DeclaracaoVar">Declaração de Variáveis.</h2>
+     - var   x = 0; // var é o tipo de dados que pode ser acessado como sendo um escopo global.<br> 
+     - let   y = 1; // let Armazena o valor e não contém acesso para acessá-lo fora do escopo.</br>
+     - const z = 2; // Define uma constante (Sendo assim, não consegue alterar o tipo de dados e nem acessar fora do escopo indicado.
+     
+  <h2 id="TipoDadosPrimitivos">Tipos de Dados Primitivos.</h2>
+     - Number {typeof 3.40}<br>
+     - String {typeof "Samuel" or 'Samuel'}<br>
+     - Boolean {typeof true or false}<br>
+     - underfined {Valor indefinido}<br>
+     - var x; // underfined
+   
+  <h2 id="TiposDeDadosComplexo">Tipos de Dados Complexo.</h2>
+     - function (){return `Aprendendo JavaScript`}<br>
+     - object<br>
+     <ul>
+       <li>class Produto{}</li>
+        <li>Produto.nome = "JavaScript"</li>  
+        <li>console.log(typeof new Produto())</li>
+        <li>console.log(Produto.nome) // JavaScript</li>
+     </ul>    
+
+   <h2 id="DeterminarValorPadrao">Determinar Valor padrão.</h2>
+    - function soma(a = 1, b = 3){return a + b // Caso não seja declarado nenhum dado, a função assumirá o valor padrão 1 e 3}
+   
+  <h2 id="Destructuring">Destructuring</h2>
+   <p>Desestruturação de dados é muito útil para não precisar declarar um valor toda vez que necessário.</p>
+    
+    const valores = {
+       nome : "Samuel",<br>
+       idade : "20",<br>
+       nacionalidade : "Brasileiro"<br>
+    }<br>
+    const { nome , nacionalidade } = valores
+          
+   <h2 id="TemplateString">Template String</h2>
+      - let multLinhas = ` Hello
+                           World `
+   <h2 id="Hoisting">Hoisting</h2>
+   <p>Mecânimos que joga a variavel declarada para cima.</p>
+      
+      * Não é recomendado trabalhar dessa forma.<br></br>
+      
+      - console.log(x) // 0<br>
+      - var x = 0 <br></br>
+      ----------------
+      <br></br>
+      * Mais recomendado.
+      <br></br>
+      - var x = 0<br>
+      - console.log(x)<br>
+      
+    <h2 id="OperadoresUnarios">Operadores Unários</h2>
+     x++<br>
+     x--<br>
+     ++x<br>
+     --x<br>
+     
+    <h2 id="OperadorTernario">Operador Ternário</h2>
+     const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+     
+   <h2 id="ParNomeValor">Par nome/Valor</h2>
+     const caracteristica = {}<br>
+     caracteristica.cabelo = "Cor"<br>
+     caracteristica.olhos  = "Cor"<br>
+     caracteristica.pele   = "Cor"<br>
+     
+   <h2 id="EstruturaCondicao">Estrutura de Condição</h2>
+   <p> Estrutura para determinar se é TRUE ou FALSE. </p>
+   
+     if(1 < 2){return "Número 1 é menor que 2 "}<br>
+     else if(2 == 2){return "Número 2 é igual a 2"}
+     
+   <h2 id="EstruturaRepeticao">Estrutura de Repetição</h2>
+   <p> Estrutura pode repetir um determinado trecho de código várias vezes.</p>
+     
+     let x = 1;<br>
+     while(x < 2){ // Enquanto for VERDADEIRO<br>
+     console.log(x); // irá repetir esse trecho de código<br>
+     x++ // x + 1 = 2}<br></br>
+     
+     for(let x = 1; x < 2; x++){ // Enquanto essa condição for VERDADEIRA<br>
+     console.log(x); // irá repetir esse trecho de código<br>
+     }
+    
+   <h2 id="POO">POO - Programação Orientada Objeto</h2>
+   <p> Principios <p>
+   <ol>
+     <br>
+     <li> Abstração<br>
+         - Abstração dos dados. Em POO é abstrair todos atributos de um objeto e seus métodos.<br>
+         Exemplo:<br>
+                  const Carro = new Object;<br>
+                  Carro.cor = "Prata";<br>
+                  Carro.velocidadeMax = "200khm";<br>
+                  Carro.marca = "BMW";<br>
+                  Carro.valor = 20.000;
+     </li>
+     </br>
+     <br>
+     <li> Encapsulamento<br>
+          - É a maneira de Ocultar determinado elementos de uma classe ou uma função.<br>
+          Exemplo:<br>
+                function Carro(marca, modelo, valor){<br>
+                      this.valor = valor // THIS é utilizado para deixar o elemento público, ou seja ele pode ser alterado.<br>
+                      console.log(`${marca} e ${modelo} e ${valor}`) // o Valor pode ser modificado sem chamar a função completa.<br>
+                 }
+     </li>
+     </br>
+     <br>
+     <li> Herança<br>
+          - Reaproveitamento de código é com HERANÇA E POLIMORFISMO, a herança herda as informações que estão em outra class<br>
+          sendo assim, não é necessário ficar escrevendo o código toda vez, apenas herda da outra classe.
+     </li>
+     </br>
+     <br>
+     <li> Polimorfismo<br>
+          - Pode ser entendido como sobrecarga de métodos, onde podemos pegar um método de outra classe/function e utilizar a sua funcionalidade em outra classe.      </li>
+     </br>
+     </ol>
+     
+   <h2 id="HERANCA">Herança</h2>
+   
+    const avo = { attri1: 'A'}<br>
+    const pai = { __proto__: avo, attri2: 'B'}<br>
+    const filho = { __proto__:pai, attri3: 'C'}<br>
+    console.log(filho.attri0, filho.attri1, filho.attri2, filho.attri3)
+    <br><br>
+    ------------------------------------------------------------------
+    <br><br>
+    class Avo {<br>
+         constructor(nome){<br>
+             this.nome = nome;<br>
+             this.sobrenome = sobrenome;<br>
+         }
+    }
+    <br><br>
+    class Pai extends Avo {<br>
+         constructo(sobrenome = "Silva"){<br>
+         super(nome)<br>
+         this.nome = nome;<br>
+         }
+    }
+    <br><br>
+    class Filho extends Pai {<br>
+         constructor(nome = "Samuel"){<br>
+         super(sobrenome)<br>
+         this.nome = nome;<br>
+         }
+    }
+    <br><br>
+    
+    const filho = new Filho;<br>
+    console.log(filho) // Filho { sobrenome: 'Silva', nome: 'Samuel' } // sobrenome de PAI e nome do Filho
+    
+   <h2 id="CriandoObj">Criando Objetos</h2>
+   
+    const obj1 = {} // Notação literal<br>
+    const obj2 = new Object; // Utilizando o Object<br>
+    <br><br>
+    // Função construtora<br>
+    function Produto(nome, preco, desc){<br>
+    this.nome = nome; // This identifica o Atributo como público<br>
+    this.getPrecoComDesconto = () =>{<br>
+        return preco * (1 - desc) //preco e desc não está público, então não pode ser alterado fora da function<br>
+     }<br>
+    }<br>
+    const p1 = new Produto('Caneta', 7.99, 0.15)<br>
+    console.log(p1.getPrecoComDesconto())<br>
+    <br>
+    // Criando pelo Object.create<br>
+    const obj3 = new Obejct.create(null);<br>
+    <br>
+    // JSON - JavaScript Object Notation (RETORNA UM OBJETO)<br>
+    const json = JSON.parse('{ "nome" : "Criando em Json" }')<br>
+    <br>
+   # JSON - JavaScript Object Notation (FORMATO DE DADOS TEXTUAL)
+     <br>
+     const obj = {nome: "Samuel", idade: 20, linguagem: "JavaScript"}<br>
+     console.log(JSON.stringify(obj)) // {"nome":"Samuel", "idade":20, "linguagem":"JavaScript"}
+     <br><br>
+     // Json p/ texto<br>
+     console.log(JSON.parse('{"nome":"Samuel","idade":20}') // {nome :"Samuel", idade:20}
+     
+     <br><br>
+     // Para consutar mais sobre JSON acesse:
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">CLIQUE AQUI!</a>
+     
+    <h2 id="EvitandoModificacoes">Evitando Modificações</h2>
+     - Podemos usar funções para evitar que um determinado Atributo de um objeto mude o seu valor por segurança.<br>
+     
+     Confira o link:
+   <a href="https://github.com/smlsilva/couser_web/blob/main/objeto/evitandoModificacoes.js">CLIQUE AQUI!</a>
+       
+   <h2 id="Array">Array</h2>
+      - É um estrutura de dados dinâmica, permite incluir dados, excluir e modificar.<br>
+      - Métodos de Array's<br>
+         - pop() // Exclui o último elemento do Array<br>
+         - push() // Adiciona o elemento na última posição<br>
+         - shift() // Remove o primeiro elemento do Array<br>
+         - unshift() // Adiciona um elemento na primeira posição<br>
+         - splice() // Remove elementos, Adiciona elementos e também pode ser em qualquer posição.<br>
+         - slice() // Cria um novo Array<br>
+         - map() // Cria um novo Array, modificando os elementos, mas não altera no vetor/array atual.<br>
+  </body>
+</html>
