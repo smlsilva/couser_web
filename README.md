@@ -11,7 +11,6 @@
    <img src="https://img.shields.io/static/v1?label=Node.js&message=tech&color=green&style=for-the-badge&logo=NODE.JS"/>
        
    # 🔧 FRAMEWORKS
-   <b>BACK-END<br></b>
    <img src="https://img.shields.io/static/v1?label=Express&message=tech&color=white&style=for-the-badge&logo=EXPRESS"/>
  
    # STATUS DO PROJETO
