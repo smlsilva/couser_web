@@ -13,6 +13,9 @@
    # 🔧 FRAMEWORKS
    <img src="https://img.shields.io/static/v1?label=Express&message=tech&color=white&style=for-the-badge&logo=EXPRESS"/>
  
+   # 🏦 Database
+   <img src="https://img.shields.io/static/v1?label=Postgresql&message=SQL&color=white&style=for-the-badge&logo=POSTGRESQL"/>  
+   
    # STATUS DO PROJETO
    - [ ] Finalizado
    - [x] Em andamento
