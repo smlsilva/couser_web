@@ -16,14 +16,14 @@
    # 🏦 Database
    <img src="https://img.shields.io/static/v1?label=Postgresql&message=SQL&color=white&style=for-the-badge&logo=POSTGRESQL"/>  
    
-   # STATUS DO PROJETO
+   # ⚠️ STATUS DO PROJETO
    - [ ] Finalizado
    - [x] Em andamento
    - [ ] Interrompido
 
-   # SUGESTÕES
+   # 🔖 SUGESTÕES
    <p> Para informar alguma sugestão sobre a organização, desenvolvimento ou querer participar, pode estar enviando um <b>PULL REQUEST</b> com
    nome, tempo de desenvolvimento e linguagem atual.</p>
    
-   # CONTRIBUIDORES
+   # 🤓 CONTRIBUIDORES
    <a href="https://github.com/smlsilva" target="_blank">![samuel (1)](https://user-images.githubusercontent.com/47987232/114802351-f14bab00-9d73-11eb-8349-3bec875b6a88.jpeg)</a>
