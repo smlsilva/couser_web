@@ -4,11 +4,11 @@
      
    <img src="https://img.shields.io/static/v1?label=HTML5&message=tech&color=red&style=for-the-badge&logo=HTML5"/>
    <img src="https://img.shields.io/static/v1?label=CSS3&message=tech&color=blue&style=for-the-badge&logo=CSS3"/>
-   <a href=""><img src="https://img.shields.io/static/v1?label=JavaScript&message=tech&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></a>
+   <a href=""><img src="https://img.shields.io/static/v1?label=JavaScript&message=v8.10.0&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/></a>
    
    # 👥 BACK-END
    
-   <img src="https://img.shields.io/static/v1?label=Node.js&message=tech&color=green&style=for-the-badge&logo=NODE.JS"/>
+   <img src="https://img.shields.io/static/v1?label=Node.js&message=v8.10.0&color=green&style=for-the-badge&logo=NODE.JS"/>
        
    # 🔧 FRAMEWORKS
    <img src="https://img.shields.io/static/v1?label=Express&message=tech&color=white&style=for-the-badge&logo=EXPRESS"/>
