@@ -5,17 +5,73 @@
     <meta charset="UTF-8">
     <title>Desafio Card</title>
     <style>
-        /* ... */
+        body {
+            margin: 0px;
+        }
+
+        .curso {
+            display: inline-block;
+            vertical-align: top;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: solid 1px black;
+            box-shadow: 0 4px 20px black;
+            height: 100%;
+            width: 260px;
+            margin: 5px 20px;
+            padding: 5px;
+            -webkit-transition-duration: all 0.5s;
+            -moz-transition-duration: all 0.5s;
+            transition-duration: 0.5s;
+        }
+
+        .curso:hover {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            overflow: hidden;
+            cursor: pointer; 
+        }
+
+        .curso img {
+            width: 100%; 
+        }
+
+
+        .curso-info {
+            padding-top: 5px;
+            padding-inline: 5px;
+            height: 90px;
+            overflow: hidden;
+        }
+
+        .curso-info h4 {
+            font-size: 1.4em;
+            font-weight: 100;
+            margin: 0px;
+        }
+
+        .curso-preco {
+            float: right;
+            padding: 10px;
+        }
+
+        .preco-de {
+            text-decoration: line-through;
+            color: firebrick;
+        }
+
+        .preco-por {
+            color: green;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+
     </style>
 </head>
 
 <body>
-    <h1>Card</h1>
 
-    <h2>Objetivo</h2>
-    <img src="http://files.cod3r.com.br/curso-web/card.png" height="340" alt="Objetivo">
-
-    <h2>Resultado</h2>
+    <h2>Card interativos</h2>
     <div>
         <div class="curso">
             <img src="http://files.cod3r.com.br/curso-web/curso1.jpg" />
